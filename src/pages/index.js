@@ -34,11 +34,11 @@ export default function Home() {
       {/* gird 2 */}
       <div className="grid grid-cols-2 pl-4 pr-4">
         <div className="flex flex-col bg-gradient-to-r from-cyan-500 to-blue-500 h-[35rem] p-4 m-4 drop-shadow-2xl rounded-lg"></div>
-
-        <div className="flex flex-col bg-gradient-to-r from-cyan-500 to-blue-500 h-[35rem] p-4 m-4 drop-shadow-2xl rounded-lg">
+        {/* Masahe */}
+        <div className="flex flex-col bg-gradient-to-r from-cyan-500 to-blue-500 h-[35rem] p-2 m-4 drop-shadow-2xl rounded-2xl">
           <div
-            style={{ backgroundImage: `url${masaheSlides[0].url}` }}
-            className=" w-full h-full ob object-cover rounded-lg"
+            style={{ backgroundImage: `url(${masaheSlides[0].url})` }}
+            className=" w-full h-full rounded-2xl bg-center bg-cover duration-500"
           ></div>
         </div>
       </div>
