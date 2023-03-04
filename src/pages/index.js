@@ -56,7 +56,7 @@ export default function Home() {
   };
   return (
     <div>
-      <div className="ml-24 mr-24 mt-20 mb-20 h-max">
+      <div className=" md:ml-24 md:mr-24 md:mt-20 md:mb-20 h-max">
         <div className="p-10">
           {/* // grid 1 */}
           <div className="grid  grid-cols-1 sm:grid-cols-5">
@@ -122,23 +122,64 @@ export default function Home() {
               </div>
             </div>
           </div>
+          {/* Happy Fats */}
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
-            <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-1 m-4 drop-shadow-2xl rounded-2xl">
+            <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-1 m-4 drop-shadow-2xl rounded-2xl h-[45rem]">
               <img
                 src="/Happyfats.png"
                 className="object-cover w-full h-full rounded-2xl"
               />
             </div>
-            <div className="bg-slate-100 h-[45rem] p-1 m-4 drop-shadow-2xl rounded-2xl"></div>
+            <div className="bg-slate-100 h-[45rem] p-1 m-4 drop-shadow-2xl rounded-2xl text-center font-body flex flex-col justify-center">
+              <div className="m-6 ">
+                {" "}
+                Happy fats is a nourishing and easy snack for outdoor
+                adventures, rush- hour traffic commutes, bagged lunches and
+                more. The company brand features an outdoorsy and natural
+                essence and it's obvious that it's made for nature lovers and
+                people on-the-go.
+              </div>
+              <div className=" m-6">
+                {" "}
+                Researched and developed multi-channel communications and
+                marketing plans, aligning with company goals. Developed
+                comprehensive advertising plan including prices and value
+                proposition, while maintaining budget of $1000 including (SEM,
+                magazine panel, and social media advertising) Increased
+                followers by 30% after implementation.
+              </div>
+            </div>
           </div>
+          {/* Airdrie POWER */}
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
-            <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-1 m-4 drop-shadow-2xl rounded-2xl">
+            <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-1 m-4 drop-shadow-2xl rounded-2xl  h-[45rem]">
               <img
                 src="/AirdriePower.png"
                 className="object-cover w-full h-full rounded-2xl"
               />
             </div>
-            <div className="bg-slate-100 h-[45rem] p-1 m-4 drop-shadow-2xl rounded-2xl"></div>
+            <div className="bg-slate-100 h-[45rem] p-1 m-4 drop-shadow-2xl rounded-2xl flex flex-col text-center justify-center font-body">
+              {" "}
+              <div className=" m-6">
+                {" "}
+                Airdrie P.O.W.E.R (Protecting Our Women with Emergency
+                Resources) is a non-profit organization that gives women in
+                Airdrie and surrounding areas a way to leave an abusive
+                relationship. It helps create a safe and sustainable environment
+                that allows women to feel empowered by providing them with
+                emergency resources, education and support for leaving their
+                negative situation behind.{" "}
+              </div>
+              <div className=" m-6">
+                {" "}
+                Target market, campaign objectives, message descriptions,
+                promotional elements with a timeline and a budget that will help
+                Airdrie P.O.W.E.R gain more brand awareness. ​The implementation
+                of digital marketing, social media, as well as events and
+                experiences are essential to help attract more awareness and
+                increased funding.
+              </div>
+            </div>
           </div>
         </div>
       </div>
