@@ -54,8 +54,10 @@ export default function Home() {
   return (
     <div>
       <div>
-        <div className="navbar bg-white h-20 fixed top-0 left-0 w-full z-50 flex justify-between items-center ">
-          <div className="h-20"></div>
+        <div className="navbar bg-white h-20 fixed  w-full z-50 flex justify-between items-center ">
+          <div className="h-16">
+            <img src="/Logo.png" className="object-cover w-full h-full" />
+          </div>
 
           <div className=" flex text-xl  ">
             <a href="https://www.linkedin.com/in/abneetpabyal/">
@@ -67,7 +69,7 @@ export default function Home() {
             </a>
             <a href="https://github.com/AbneetKP">
               {" "}
-              <div className="text-black text-4xl">
+              <div className="text-black text-4xl mr-8">
                 {" "}
                 <AiFillGithub />
               </div>
@@ -75,10 +77,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="sm:p-10">
+        <div className="sm:p-10 mb-">
           {/* // grid 1 */}
-          <div className="grid  grid-cols-1 sm:grid-cols-5">
-            <div className="flex flex-col justify-between bg-gradient-to-r from-cyan-500 to-blue-500 h-[40rem] col-span-3 p-4 ml-8  mt-12 sm:mt-8 mr-8 mb-4 drop-shadow-2xl rounded-lg">
+          <div className="grid  grid-cols-1 sm:grid-cols-5 mt-16">
+            <div className="flex flex-col justify-between bg-gradient-to-r from-cyan-500 to-blue-500 h-[40rem] col-span-3 p-4 ml-8 mt-12 sm:mt-8 mr-8 mb-4 drop-shadow-2xl rounded-lg">
               <div className="text-4xl font-extrabold text-white font-heading p-4 m-8">
                 Hi my name is Abneet
                 <div className="font-title text-xl mt-4">
@@ -202,6 +204,10 @@ export default function Home() {
               />
             </div>
             <div className="bg-gradient-to-r from-cyan-500 to-blue-500  h-[45rem] p-1 m-4 drop-shadow-2xl rounded-2xl text-center font-body flex flex-col justify-center">
+              <div className="sm:mb-12 text-2xl font-title text-white text-top">
+                {" "}
+                About the project
+              </div>
               <div className="m-6 text-lg font-body text-white">
                 {" "}
                 Happy fats is a nourishing and easy snack for outdoor
@@ -231,6 +237,10 @@ export default function Home() {
             </div>
             <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-[45rem] p-1 m-4 drop-shadow-2xl rounded-2xl flex flex-col text-center justify-center font-body">
               {" "}
+              <div className="sm:mb-12 text-2xl font-title text-white text-top">
+                {" "}
+                About the project
+              </div>
               <div className=" m-6 text-md font-body text-white">
                 {" "}
                 Airdrie P.O.W.E.R (Protecting Our Women with Emergency
@@ -245,11 +255,11 @@ export default function Home() {
                 {" "}
                 I developed a diagonstic report that encompassed the target
                 market, campaign objectives, message descriptions, promotional
-                elements with a timeline and a budget that will help Airdrie
-                P.O.W.E.R gain more brand awareness. ​The implementation of
-                digital marketing, social media, as well as events and
-                experiences are essential to help attract more awareness and
-                increased funding.
+                elements with a timeline and a budget. ​The implementation of
+                digital marketing, social media, and events for Airdrie
+                P.O.W.E.R to bring more attnetion to domestic voilence.
+                Additionally I created web designs, guides for consistentcy for
+                the branding portfolio.
               </div>
             </div>
           </div>
@@ -265,25 +275,25 @@ export default function Home() {
 
           <div className="flex">
             <div className="sm:h-[15rem] m-4">
-              <img src="/InceptionU.png" />
+              <img src="/InceptionU.png" className=" lg:ml-16" />
             </div>
             <div className="sm:h-[10rem] m-4">
               {" "}
-              <img src="/SAIT.png" />
+              <img src="/SAIT.png" className="lg:ml-44" />
             </div>
           </div>
           {/*  */}
           <div className="flex justify-around">
             <div className=" text-center bg-slate-100 p-2 m-4 drop-shadow-2xl rounded-xl sm:h-10 ">
               {" "}
-              <div className="sm:w-[25rem] sm:text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400">
+              <div className="sm:w-[25rem] sm:text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400 rounded-2xl font-title ">
                 Certifcate
               </div>{" "}
             </div>
             {/*  */}
             <div className=" text-center bg-slate-100 p-2 m-4 drop-shadow-2xl rounded-xl h-16 sm:h-10">
               {" "}
-              <div className="sm:w-[40rem] sm:text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400 ">
+              <div className="sm:w-[40rem] sm:text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400 rounded-2xl font-title ">
                 {" "}
                 Bachelor's of Applied Business Adminstration (Marketing){" "}
               </div>
