@@ -57,12 +57,12 @@ export default function Home() {
     <div>
       <div>
         {/* header */}
-        <div className="navbar bg-white h-20 fixed  w-full z-50 flex justify-between items-center ">
+        <div className="navbar bg-white h-20 fixed top-0 w-full z-50 flex justify-between items-center">
           <div className="h-16">
             <Image src="/Logo.png" alt="logo" width={100} height={100} />
           </div>
 
-          <div className=" flex text-xl  ">
+          <div className=" flex text-xl">
             <a href="https://www.linkedin.com/in/abneetpabyal/">
               {" "}
               <div className="text-black mr-2 text-4xl">
@@ -140,21 +140,40 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
             <div className=" bg-white drop-shadow-2xl h-[5rem] sm:h-[10rem] col-span-2 1 m-4 flex justify-between items-center rounded-2xl">
-              <Image src="/Js.png" alt="js" width={150} height={100} />
-              <Image src="/CSS3.png" alt="css" width={65} height={100} />
+              <Image
+                src="/Js.png"
+                alt="js"
+                width={150}
+                height={100}
+                className=" h-[2.5rem] w-[2.5rem] ml-2"
+              />
+              <Image
+                src="/CSS3.png"
+                alt="css"
+                width={65}
+                height={100}
+                className="h-[2rem] w-[1rem]"
+              />
               <Image
                 src="/Node.png"
                 alt="node-express"
                 width={150}
                 height={100}
+                className="h-[2rem] w-[2rem]"
               />
-              <Image src="/React.jpg" alt="react" width={85} height={100} />
+              <Image
+                src="/React.jpg"
+                alt="react"
+                width={85}
+                height={100}
+                className="h-[2rem] w-[2rem]"
+              />
               <Image
                 src="/Tailwind1.png"
                 alt="tailwind"
                 width={85}
                 height={100}
-                className="mr-8"
+                className="mr-8 h-[2rem] w-[2rem]"
               />
             </div>
           </div>
@@ -312,9 +331,9 @@ export default function Home() {
               </div>{" "}
             </div>
             {/*  */}
-            <div className=" flex text-center bg-slate-100 p-2 m-4 drop-shadow-2xl rounded-xl h-16 lg:h-10 items-center justify-center">
+            <div className=" flex text-center bg-slate-100 p-2 m-4 drop-shadow-2xl rounded-xl h-[8rem] lg:h-10 items-center justify-center">
               {" "}
-              <div className="  sm:text-xl text-black rounded-2xl font-title ">
+              <div className=" sm:text-xl text-black rounded-2xl font-title ">
                 {" "}
                 Bachelor's of Applied Business Adminstration (Marketing){" "}
               </div>
