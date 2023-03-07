@@ -59,7 +59,7 @@ export default function Home() {
         {/* header */}
         <div className="navbar bg-white h-20 fixed  w-full z-50 flex justify-between items-center ">
           <div className="h-16">
-            <img src="/Logo.png" className="object-cover w-full h-full" />
+            <Image src="/Logo.png" alt="logo" width={100} height={100} />
           </div>
 
           <div className=" flex text-xl  ">
@@ -301,7 +301,6 @@ export default function Home() {
             </div>
             <div className="sm:h-[10rem] m-4">
               {" "}
-              <img src="/SAIT.png" className=" mt-5 md:mt-0" />
               <Image src="/SAIT.png" alt="Sait" width={500} height={150} />
             </div>
           </div>
