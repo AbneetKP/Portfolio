@@ -83,7 +83,7 @@ export default function Home() {
         <div className="sm:p-10">
           {/* // grid 1 */}
           <div className="grid  grid-cols-1 sm:grid-cols-5 mt-16">
-            <div className="flex flex-col justify-between bg-gradient-to-r from-amber-400 to-amber-500 h-[40rem] col-span-3 p-4 ml-8 mt-12 sm:mt-8 mr-8 mb-4 drop-shadow-2xl rounded-lg">
+            <div className="flex flex-col justify-between bg-gradient-to-r from-amber-400 to-amber-500 h-[45rem] sm:h-[40rem] col-span-3 p-4 ml-8 mt-12 sm:mt-8 mr-8 mb-4 drop-shadow-2xl rounded-lg">
               <div className="text-4xl font-extrabold text-white font-heading p-4 m-8">
                 Hi my name is Abneet
                 <div className="font-title text-xl mt-4  ">
