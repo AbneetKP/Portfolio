@@ -309,18 +309,25 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2">
-            <div className="sm:h-[15rem] object-center sm:ml-20">
+          <div className="grid grid-cols-2 lg:ml-20 xl:ml-32">
+            <div className="sm:h-[15rem] object-right ">
               <Image
                 src="/InceptionU.png"
                 alt="InceptionU"
                 width={500}
                 height={150}
+                className="object-center"
               />
             </div>
             <div className="sm:h-[10rem] m-4">
               {" "}
-              <Image src="/SAIT.png" alt="Sait" width={500} height={150} />
+              <Image
+                src="/SAIT.png"
+                alt="Sait"
+                width={500}
+                height={150}
+                className=" md:mt-10"
+              />
             </div>
           </div>
           <div className="grid grid-cols-2">
@@ -331,7 +338,7 @@ export default function Home() {
               </div>{" "}
             </div>
             {/*  */}
-            <div className=" flex text-center bg-slate-100 p-2 m-4 drop-shadow-2xl rounded-xl h-[8rem] lg:h-10 items-center justify-center">
+            <div className=" flex text-center bg-slate-100 p-2 m-4 drop-shadow-2xl rounded-xl h-[8rem] md:h-14 lg:h-10 items-center justify-center">
               {" "}
               <div className=" sm:text-xl text-black rounded-2xl font-title ">
                 {" "}
