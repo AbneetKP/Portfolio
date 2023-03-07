@@ -123,7 +123,7 @@ export default function Home() {
                 alt="Me"
                 width={650}
                 height={725}
-                className=" h-[45rem] drop-shadow-2xl rounded-2xl"
+                className="drop-shadow-2xl rounded-2xl object-cover h-[40rem] w-full"
               />
             </div>
           </div>
@@ -214,7 +214,7 @@ export default function Home() {
                 alt="Happyfats"
                 width={650}
                 height={725}
-                className=" h-[45rem] drop-shadow-2xl rounded-2xl"
+                className=" drop-shadow-2xl rounded-2xl object-cover h-[45rem] w-full"
               />
             </div>
             <div className="bg-gradient-to-r  from-amber-400 to-amber-500 h-[45rem] m-4 drop-shadow-2xl rounded-2xl text-center font-body flex flex-col justify-center">
@@ -248,8 +248,8 @@ export default function Home() {
                 src="/AirdriePower.png"
                 alt="AirdriePower"
                 width={650}
-                height={725}
-                className=" h-[45rem] drop-shadow-2xl rounded-2xl"
+                height={400}
+                className="drop-shadow-2xl rounded-2xl object-cover h-[45rem] w-full"
               />
             </div>
             <div className="bg-gradient-to-r  from-amber-400 to-amber-500 h-[45rem] p-1 m-4 drop-shadow-2xl rounded-2xl flex flex-col text-center justify-center font-body">
