@@ -16,10 +16,12 @@ export default function Home() {
   ];
 
   const masaheSlides = [
-    { url: "/landing-v.png" },
-    { url: "/landing.png" },
-    { url: "/Onepager1.png" },
-    { url: "/Onepager2.png" },
+    { url: "/Hero.png" },
+    { url: "/Home.png" },
+    { url: "/HomeMT.png" },
+    { url: "/ClientSchedule.png" },
+    { url: "/Calendar.png" },
+    { url: "/TheTeam.png" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -54,6 +56,7 @@ export default function Home() {
   return (
     <div>
       <div>
+        {/* header */}
         <div className="navbar bg-white h-20 fixed  w-full z-50 flex justify-between items-center ">
           <div className="h-16">
             <img src="/Logo.png" className="object-cover w-full h-full" />
@@ -77,13 +80,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="sm:p-10 mb-">
+        <div className="sm:p-10">
           {/* // grid 1 */}
           <div className="grid  grid-cols-1 sm:grid-cols-5 mt-16">
-            <div className="flex flex-col justify-between bg-gradient-to-r from-cyan-500 to-blue-500 h-[40rem] col-span-3 p-4 ml-8 mt-12 sm:mt-8 mr-8 mb-4 drop-shadow-2xl rounded-lg">
+            <div className="flex flex-col justify-between bg-gradient-to-r from-amber-400 to-amber-500 h-[40rem] col-span-3 p-4 ml-8 mt-12 sm:mt-8 mr-8 mb-4 drop-shadow-2xl rounded-lg">
               <div className="text-4xl font-extrabold text-white font-heading p-4 m-8">
                 Hi my name is Abneet
-                <div className="font-title text-xl mt-4">
+                <div className="font-title text-xl mt-4  ">
                   {" "}
                   Frontend Developer
                 </div>
@@ -105,7 +108,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="text-white font-body m-8">
+              <div className="text-white font-body m-8 text-lg">
                 Recently divulged into front-end development. Alongside a
                 bachelors degree in applied business adminstration with a major
                 in marketing. My appittude for learning has only strengthened
@@ -113,7 +116,7 @@ export default function Home() {
                 collecting trading cards, gaming, hiking, camping and traveling.
               </div>
             </div>
-
+            {/* place holder Image */}
             <div className="flex flex-col self-end h-[40rem] col-span-2 ml-8  mt-8 mr-8 mb-4 first-letter:mb-4 drop-shadow-2xl rounded-lg">
               <img
                 src="/Abneet-1.jpg"
@@ -125,9 +128,9 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
             <div className=" bg-slate-100 p-1 m-4 drop-shadow-2xl rounded-lg  h-[2.5rem] sm:h-[4rem] col-span-2 text-center text-2xl ">
               {" "}
-              <div className="text-center font-heading sm:text-4xl text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400 flex items-center justify-center h-[2rem] sm:h-[4rem] rounded-2xl">
+              <div className="text-center font-heading sm:text-4xl text-2xl font-extrabold text-black flex items-center justify-center h-[2rem] sm:h-[3.5rem] rounded-2xl">
                 {" "}
-                Technologies
+                TECHNOLOGIES
               </div>
             </div>
           </div>
@@ -149,24 +152,24 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
-            <div className=" bg-slate-100 p-1 m-4 drop-shadow-2xl rounded-lg h-[2.5rem] sm:h-[4rem] col-span-2 text-center text-2xl ">
+            <div className=" bg-slate-100 m-4 drop-shadow-2xl rounded-lg h-[2.5rem] sm:h-[4rem] col-span-2 text-center text-2xl ">
               {" "}
-              <div className="text-center font-heading sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400 flex items-center justify-center h-[2rem] sm:h-[4rem] rounded-2xl">
+              <div className="text-center font-heading sm:text-4xl font-extrabold text-black flex items-center justify-center h-[2rem] sm:h-[3.5rem] rounded-2xl">
                 {" "}
-                Projects
+                PROJECTS
               </div>
             </div>
           </div>
 
           {/* gird 2 */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
+          <div className="grid grid-cols-1 sm:grid-cols-1 pl-4 pr-4">
             {/* Park n Bark */}
-            <div className=" bg-gradient-to-r from-cyan-500 to-blue-500 p-1 m-4 h-[40rem] drop-shadow-2xl rounded-2xl group">
+            <div className=" m-4 h-[50rem] drop-shadow-2xl rounded-2xl group ">
               <div
                 style={{
                   backgroundImage: `url(${parkNBarkSlides[currentIndexP].url})`,
                 }}
-                className=" w-full h-full bg-cover bg-bottom rounded-2xl duration-500"
+                className=" w-full h-full bg-cover bg-top rounded-2xl duration-500"
               ></div>
               {/* left arrow */}
               <div className="hidden group-hover:block absolute top-[50%] translate-x-0 translate-y-[-50%] left-3 p-2 text-2xl cursor-pointer">
@@ -178,12 +181,12 @@ export default function Home() {
               </div>
             </div>
             {/* Masahe */}
-            <div className="flex flex-col bg-gradient-to-r from-cyan-500 to-blue-500 h-[40rem] p-1 m-4 drop-shadow-2xl rounded-2xl group">
+            <div className=" h-[50rem]  m-4 drop-shadow-2xl rounded-2xl group">
               <div
                 style={{
                   backgroundImage: `url(${masaheSlides[currentIndex].url})`,
                 }}
-                className=" w-full h-full bg-cover bg-bottom rounded-2xl duration-500"
+                className=" w-full h-full bg-cover bg-top rounded-2xl duration-500"
               ></div>
               {/* left arrow */}
               <div className="hidden group-hover:block absolute top-[50%] translate-x-0 translate-y-[-50%] left-3 p-2 text-2xl cursor-pointer">
@@ -197,18 +200,18 @@ export default function Home() {
           </div>
           {/* Happy Fats */}
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
-            <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-1 m-4 drop-shadow-2xl rounded-2xl h-[45rem]">
+            <div className="bg-gradient-to-r  from-amber-400 to-amber-500  m-4 drop-shadow-2xl rounded-2xl h-[45rem]">
               <img
                 src="/Happyfats.png"
                 className="object-cover w-full h-full rounded-2xl"
               />
             </div>
-            <div className="bg-gradient-to-r from-cyan-500 to-blue-500  h-[45rem] p-1 m-4 drop-shadow-2xl rounded-2xl text-center font-body flex flex-col justify-center">
-              <div className="sm:mb-12 text-2xl font-title text-white text-top">
+            <div className="bg-gradient-to-r  from-amber-400 to-amber-500 h-[45rem] m-4 drop-shadow-2xl rounded-2xl text-center font-body flex flex-col justify-center">
+              <div className="sm:mb-12 text-xl font-title text-white text-top">
                 {" "}
                 About the project
               </div>
-              <div className="m-6 text-lg font-body text-white">
+              <div className="m-6 text-sm md:text-lg font-body text-white">
                 {" "}
                 Happy fats is a nourishing and easy snack for outdoor
                 adventures, rush- hour traffic commutes, bagged lunches and
@@ -216,7 +219,7 @@ export default function Home() {
                 essence and it's obvious that it's made for nature lovers and
                 people on-the-go.
               </div>
-              <div className=" m-6 text-lg font-body text-white">
+              <div className=" m-6 text-sm md:text-lg font-body text-white">
                 {" "}
                 I researched and developed multi-channel communications and
                 marketing plans, aligning with company goals. Developed a
@@ -229,19 +232,19 @@ export default function Home() {
           </div>
           {/* Airdrie POWER */}
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
-            <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-1 m-4 drop-shadow-2xl rounded-2xl  h-[45rem]">
+            <div className="bg-gradient-to-r  from-amber-400 to-amber-500 m-4 drop-shadow-2xl rounded-2xl  h-[45rem]">
               <img
                 src="/AirdriePower.png"
                 className="object-cover w-full h-full rounded-2xl"
               />
             </div>
-            <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-[45rem] p-1 m-4 drop-shadow-2xl rounded-2xl flex flex-col text-center justify-center font-body">
+            <div className="bg-gradient-to-r  from-amber-400 to-amber-500 h-[45rem] p-1 m-4 drop-shadow-2xl rounded-2xl flex flex-col text-center justify-center font-body">
               {" "}
-              <div className="sm:mb-12 text-2xl font-title text-white text-top">
+              <div className="sm:mb-12 text-xl font-title text-white text-top">
                 {" "}
                 About the project
               </div>
-              <div className=" m-6 text-md font-body text-white">
+              <div className=" m-6 text-sm md:text-lg font-body text-white">
                 {" "}
                 Airdrie P.O.W.E.R (Protecting Our Women with Emergency
                 Resources) is a non-profit organization that gives women in
@@ -251,7 +254,7 @@ export default function Home() {
                 emergency resources, education and support for leaving their
                 negative situation behind.{" "}
               </div>
-              <div className=" m-6 text-md sm: text-lg font-body text-white">
+              <div className=" m-6 text-sm md:text-lg font-body text-white">
                 {" "}
                 I developed a diagonstic report that encompassed the target
                 market, campaign objectives, message descriptions, promotional
@@ -266,39 +269,40 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
             <div className=" bg-slate-100 p-1 m-4 drop-shadow-2xl rounded-lg  h-[4rem] col-span-2 text-center text-2xl ">
               {" "}
-              <div className="text-center font-heading text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400 flex items-center justify-center h-[4rem] rounded-2xl">
+              <div className="text-center font-heading text-4xl font-extrabold text-black flex items-center justify-center h-[3.5rem] rounded-2xl">
                 {" "}
-                Education
+                EDUCATION
               </div>
             </div>
           </div>
 
-          <div className="flex">
+          <div className="grid grid-cols-2">
             <div className="sm:h-[15rem] m-4">
-              <img src="/InceptionU.png" className=" lg:ml-16" />
+              <img src="/InceptionU.png" className="" />
             </div>
             <div className="sm:h-[10rem] m-4">
               {" "}
-              <img src="/SAIT.png" className="lg:ml-44" />
+              <img src="/SAIT.png" className=" mt-5 md:mt-0" />
             </div>
           </div>
-          {/*  */}
-          <div className="flex justify-around">
-            <div className=" text-center bg-slate-100 p-2 m-4 drop-shadow-2xl rounded-xl sm:h-10 ">
+          <div className="grid grid-cols-2">
+            <div className=" flex text-center bg-slate-100 p-2 m-4 drop-shadow-2xl rounded-xl sm:h-10 items-center justify-center ">
               {" "}
-              <div className="sm:w-[25rem] sm:text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400 rounded-2xl font-title ">
-                Certifcate
+              <div className="sm:text-xl text-black rounded-2xl font-title ">
+                Certifcate (Full Stack Developer)
               </div>{" "}
             </div>
             {/*  */}
-            <div className=" text-center bg-slate-100 p-2 m-4 drop-shadow-2xl rounded-xl h-16 sm:h-10">
+            <div className=" flex text-center bg-slate-100 p-2 m-4 drop-shadow-2xl rounded-xl h-16 lg:h-10 items-center justify-center">
               {" "}
-              <div className="sm:w-[40rem] sm:text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400 rounded-2xl font-title ">
+              <div className="  sm:text-xl text-black rounded-2xl font-title ">
                 {" "}
                 Bachelor's of Applied Business Adminstration (Marketing){" "}
               </div>
             </div>
           </div>
+          {/*  */}
+
           <div className="flex justify-center">
             <a href="https://www.linkedin.com/in/abneetpabyal/">
               {" "}
