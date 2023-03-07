@@ -118,9 +118,12 @@ export default function Home() {
             </div>
             {/* place holder Image */}
             <div className="flex flex-col self-end h-[40rem] col-span-2 ml-8  mt-8 mr-8 mb-4 first-letter:mb-4 drop-shadow-2xl rounded-lg">
-              <img
+              <Image
                 src="/Abneet-1.jpg"
-                className="w-full h-full object-cover rounded-lg"
+                alt="Me"
+                width={650}
+                height={725}
+                className=" h-[45rem] drop-shadow-2xl rounded-2xl"
               />
             </div>
           </div>
@@ -137,13 +140,21 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
             <div className=" bg-white drop-shadow-2xl h-[5rem] sm:h-[10rem] col-span-2 1 m-4 flex justify-between items-center rounded-2xl">
-              <img src="/Js.png" className=" h-[3em] sm:h-[6rem]" />
-              <img src="/CSS3.png" className="  h-[2rem] sm:h-[5rem]" />
-              <img src="/Node.png" className=" h-[2rem] sm:h-[5rem]" />
-              <img src="/React.jpg" className=" h-[2rem] sm:h-[5rem]" />
-              <img
+              <Image src="/Js.png" alt="js" width={150} height={100} />
+              <Image src="/CSS3.png" alt="css" width={65} height={100} />
+              <Image
+                src="/Node.png"
+                alt="node-express"
+                width={150}
+                height={100}
+              />
+              <Image src="/React.jpg" alt="react" width={85} height={100} />
+              <Image
                 src="/Tailwind1.png"
-                className=" h-[2.5rem] sm:h-[5rem] mr-6"
+                alt="tailwind"
+                width={85}
+                height={100}
+                className="mr-8"
               />
             </div>
           </div>
@@ -198,9 +209,12 @@ export default function Home() {
           {/* Happy Fats */}
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
             <div className="bg-gradient-to-r  from-amber-400 to-amber-500  m-4 drop-shadow-2xl rounded-2xl h-[45rem]">
-              <img
+              <Image
                 src="/Happyfats.png"
-                className="object-cover w-full h-full rounded-2xl"
+                alt="Happyfats"
+                width={650}
+                height={725}
+                className=" h-[45rem] drop-shadow-2xl rounded-2xl"
               />
             </div>
             <div className="bg-gradient-to-r  from-amber-400 to-amber-500 h-[45rem] m-4 drop-shadow-2xl rounded-2xl text-center font-body flex flex-col justify-center">
@@ -229,10 +243,13 @@ export default function Home() {
           </div>
           {/* Airdrie POWER */}
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
-            <div className="bg-gradient-to-r  from-amber-400 to-amber-500 m-4 drop-shadow-2xl rounded-2xl  h-[45rem]">
-              <img
+            <div className="bg-gradient-to-r  from-amber-400 to-amber-500 m-4 drop-shadow-2xl rounded-2xl  ">
+              <Image
                 src="/AirdriePower.png"
-                className="object-cover w-full h-full rounded-2xl"
+                alt="AirdriePower"
+                width={650}
+                height={725}
+                className=" h-[45rem] drop-shadow-2xl rounded-2xl"
               />
             </div>
             <div className="bg-gradient-to-r  from-amber-400 to-amber-500 h-[45rem] p-1 m-4 drop-shadow-2xl rounded-2xl flex flex-col text-center justify-center font-body">
@@ -274,12 +291,18 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-2">
-            <div className="sm:h-[15rem] m-4">
-              <img src="/InceptionU.png" className="" />
+            <div className="sm:h-[15rem] object-center sm:ml-20">
+              <Image
+                src="/InceptionU.png"
+                alt="InceptionU"
+                width={500}
+                height={150}
+              />
             </div>
             <div className="sm:h-[10rem] m-4">
               {" "}
               <img src="/SAIT.png" className=" mt-5 md:mt-0" />
+              <Image src="/SAIT.png" alt="Sait" width={500} height={150} />
             </div>
           </div>
           <div className="grid grid-cols-2">
