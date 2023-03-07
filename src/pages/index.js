@@ -136,16 +136,13 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 pl-4 pr-4">
-            <div className=" bg-slate-100 drop-shadow-2xl h-[5rem] sm:h-[10rem] col-span-2 1 m-4 flex justify-between items-center rounded-2xl">
-              <img src="/JavaScript.png" className=" h-[2rem] sm:h-[5rem]" />
-              <img src="/CSS.png" className="  h-[2rem] sm:h-[5rem]" />
-              <img src="/Expressjs.svg" className=" h-[2rem] sm:h-[5rem]" />
+            <div className=" bg-white drop-shadow-2xl h-[5rem] sm:h-[10rem] col-span-2 1 m-4 flex justify-between items-center rounded-2xl">
+              <img src="/Js.png" className=" h-[3em] sm:h-[6rem]" />
+              <img src="/CSS3.png" className="  h-[2rem] sm:h-[5rem]" />
+              <img src="/Node.png" className=" h-[2rem] sm:h-[5rem]" />
+              <img src="/React.jpg" className=" h-[2rem] sm:h-[5rem]" />
               <img
-                src="/React-icon.svg.webp"
-                className=" h-[2rem] sm:h-[5rem]"
-              />
-              <img
-                src="/Tailwind.png"
+                src="/Tailwind1.png"
                 className=" h-[2.5rem] sm:h-[5rem] mr-6"
               />
             </div>
