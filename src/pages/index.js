@@ -84,7 +84,7 @@ export default function Home() {
           {/* // grid 1 */}
           <div className="grid  grid-cols-1 sm:grid-cols-5 mt-16">
             <div className="flex flex-col justify-between bg-gradient-to-r from-amber-400 to-amber-500 h-[45rem] sm:h-[40rem] col-span-3 p-4 ml-8 mt-12 sm:mt-8 mr-8 mb-4 drop-shadow-2xl rounded-lg">
-              <div className="text-4xl font-extrabold text-white font-heading p-4 m-8">
+              <div className="text-4xl font-extrabold text-white font-heading p-4 sm:m-8">
                 Hi my name is Abneet
                 <div className="font-title text-xl mt-4  ">
                   {" "}
@@ -108,7 +108,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="text-white font-body m-8 text-lg">
+              <div className="text-white font-body m-2 sm:m-8 text-lg">
                 Recently divulged into front-end development. Alongside a
                 bachelors degree in applied business adminstration with a major
                 in marketing. My appittude for learning has only strengthened
