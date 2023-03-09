@@ -145,35 +145,35 @@ export default function Home() {
                 alt="js"
                 width={150}
                 height={100}
-                className=" h-[2.5rem] w-[2.5rem] ml-2"
+                className=" h-[2.5rem] w-[2.5rem] sm:h-[8.5rem] sm:w-[10.5rem] ml-2"
               />
               <Image
                 src="/CSS3.png"
                 alt="css"
                 width={65}
                 height={100}
-                className="h-[2rem] w-[1rem]"
+                className="h-[2rem] w-[1rem] sm:h-[7rem] sm:w-[5rem]"
               />
               <Image
                 src="/Node.png"
                 alt="node-express"
                 width={150}
                 height={100}
-                className="h-[2rem] w-[2rem]"
+                className="h-[2rem] w-[2rem] sm:h-[9.5rem] sm:w-[10.5rem]"
               />
               <Image
                 src="/React.jpg"
                 alt="react"
                 width={85}
                 height={100}
-                className="h-[2rem] w-[2rem]"
+                className="h-[2rem] w-[2rem] sm:h-[7rem] sm:w-[7rem]"
               />
               <Image
                 src="/Tailwind1.png"
                 alt="tailwind"
                 width={85}
                 height={100}
-                className="mr-8 h-[2rem] w-[2rem]"
+                className="mr-8 h-[2rem] w-[2rem] sm:h-[7.5rem] sm:w-[7.5rem]"
               />
             </div>
           </div>
