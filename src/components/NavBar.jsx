@@ -22,13 +22,13 @@ function NavBar() {
         window.addEventListener('scroll', handleShadow )
     },[])
   return (
-    <div className={shadow ? "fixed w-full h-20 shadow-sm shadow-[#d4af37] z-[100]":"fixed w-full h-20 z-[100]" }>
+    <div className={shadow ? "fixed bg-white  w-full h-20 shadow-sm shadow-[#d4af37] z-[100]":"fixed w-full h-20 z-[100]" }>
         {/* Logo */}
      <div className=" flex justify-between items-center w-full h-full px-4 2xl:px-16">
         <Image src="/Logo.png" alt="/" width="125" height="50"/>
          <div>
             <ul className=" hidden md:flex">
-                <Link href="/">
+                <Link href="/#home">
                 <li className=" ml-10 text-sm uppercase hover:border-b">Home</li>
                 </Link>
                 <Link href="/#about">
@@ -66,16 +66,16 @@ function NavBar() {
                 </div>
                 <div className='py-4 flex flex-col'>
                     <ul className='uppercase'>
-                        <Link href="/"> 
+                        <Link href="/#home"> 
                         <li className='py-4 text-sm'>Home</li>  
                         </Link>
-                        <Link href="/"> 
+                        <Link href="/#about"> 
                         <li className='py-4 text-sm'>About</li>  
                         </Link>
-                        <Link href="/"> 
+                        <Link href="/#projects"> 
                         <li className='py-4 text-sm'>Projects</li>  
                         </Link>
-                        <Link href="/"> 
+                        <Link href="/#skills"> 
                         <li className='py-4 text-sm'>Contact</li>  
                         </Link>
                     </ul>

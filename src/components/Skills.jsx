@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-
+import Html from "/public/Hmtl.png"
+import CSS3 from "/public/CSS3.png"
+import Js from "/public/Js.png"
 function Skills() {
   return (
     <div id="skills" className=" w-full lg:h-screen p-2">
@@ -11,8 +13,8 @@ function Skills() {
 
             <div className="p-6 shadow-sm shadow-[#d4af37] rounded-xl hover:scale-105 ease-in duration-300"> 
                 <div className='grid gird-cols-2 gap-4 justify-center items-center'>
-                <div className="m-auto">
-                    <Image src="/Hmtl.png" alt="/" width={64} height={64} />
+                <div className="m-auto w-20 h-24">
+                    <Image src={Html} alt="/"/>
                 </div>
                 <div className="flex flex-col items-center justify-center"> 
                  <h3> HMTL</h3>
@@ -23,8 +25,8 @@ function Skills() {
 
             <div className="p-6 shadow-sm shadow-[#d4af37] rounded-xl hover:scale-105 ease-in duration-300"> 
              <div className='grid gird-cols-2 gap-4 justify-center items-center'>
-                <div className="m-auto">
-                    <Image src="/CSS3.png" alt="/" width={50} height={50} />
+                <div className="m-auto w-16 h-24">
+                    <Image src={CSS3} alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center"> 
                 <h3> CSS </h3>
@@ -34,8 +36,8 @@ function Skills() {
 
             <div className="p-6 shadow-sm shadow-[#d4af37] rounded-xl hover:scale-105 ease-in duration-300"> 
              <div className='grid gird-cols-2 gap-4 justify-center items-center'>
-                <div className="m-auto">
-                    <Image src="/Js.png" alt="/" width={115} height={115} />
+                <div className="m-auto w-28 h-24  ">
+                    <Image src={Js} alt="/" className=" w-full h-full" />
                 </div>
                 <div className="flex flex-col items-center justify-center"> 
                 <h3> JavaScript </h3>
@@ -45,7 +47,7 @@ function Skills() {
 
             <div className="p-6 shadow-sm shadow-[#d4af37] rounded-xl hover:scale-105 ease-in duration-300"> 
              <div className='grid gird-cols-2 gap-4 justify-center items-center'>
-                <div className="m-auto">
+                <div className="m-auto h-24">
                     <Image src="/Tailwind1.png" alt="/" width={80} height={80} />
                 </div>
                 <div className="flex flex-col items-center justify-center"> 
@@ -56,7 +58,7 @@ function Skills() {
 
             <div className="p-6 shadow-sm shadow-[#d4af37] rounded-xl hover:scale-105 ease-in duration-300"> 
              <div className='grid gird-cols-2 gap-4 justify-center items-center'>
-                <div className="m-auto">
+                <div className="m-auto h-24">
                     <Image src="/React.jpg" alt="/" width={80} height={80} />
                 </div>
                 <div className="flex flex-col items-center justify-center"> 
@@ -68,7 +70,7 @@ function Skills() {
 
             <div className="p-6 shadow-sm shadow-[#d4af37] rounded-xl hover:scale-105 ease-in duration-300"> 
              <div className='grid gird-cols-2 gap-4 justify-center items-center'>
-                <div className="m-auto">
+                <div className="m-auto h-24">
                     <Image src="/Node.png" alt="/" width={150} height={150} />
                 </div>
                 <div className="flex flex-col items-center justify-center"> 

@@ -23,7 +23,7 @@ function About() {
                 </p>
             </div>
             <div className=" w-full h-auto m-auto shadow-sm shadow-[#d4af37] rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-                <img src="/Abneet-1.jpg" alt="/" className="rounded-xl" />
+                <img src="/Abneet.jpg" alt="/" className="rounded-xl" />
             </div>
         </div>
       
