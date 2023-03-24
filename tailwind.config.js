@@ -10,7 +10,7 @@ module.exports = {
       xl: "1440px",
     },
     fontFamily: {
-      heading: ["Century Gothic", "sans-serif"],
+      heading: ["PT Sans", "sans-serif"],
       title: ["Montserrat", "sans-serif"],
       body: ["Roboto", "sans-serif"],
     },
