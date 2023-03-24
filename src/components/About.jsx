@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div id="about" className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className=' max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className=" col-span-2">
                 <p className=" uppercase font-title text-2xl tracking-widest text-[#d4af37]">About Me</p>
@@ -22,7 +22,7 @@ function About() {
                      I believe my desire for Front-End deveolpment is nicely complimented by my marketing knowledge.
                 </p>
             </div>
-            <div className=" w-full h-auto m-auto shadow-md shadow-[#d4af37] rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+            <div className=" w-full h-auto m-auto shadow-sm shadow-[#d4af37] rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
                 <img src="/Abneet-1.jpg" alt="/" className="rounded-xl" />
             </div>
         </div>
