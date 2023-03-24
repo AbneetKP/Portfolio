@@ -48,7 +48,7 @@ function Skills() {
             <div className="p-6 shadow-sm shadow-[#d4af37] rounded-xl hover:scale-105 ease-in duration-300"> 
              <div className='grid gird-cols-2 gap-4 justify-center items-center'>
                 <div className="m-auto h-24">
-                    <Image src="/Tailwind1.png" alt="/" width={80} height={80} />
+                    <Image src="/Tailwind.png" alt="/" width={80} height={80} />
                 </div>
                 <div className="flex flex-col items-center justify-center"> 
                 <h3> Tailwind </h3>
