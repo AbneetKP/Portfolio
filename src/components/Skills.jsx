@@ -5,7 +5,7 @@ import CSS3 from "/public/CSS3.png"
 import Js from "/public/Js.png"
 function Skills() {
   return (
-    <div id="skills" className=" w-full lg:h-screen p-2">
+    <div id="skills" className=" w-full lg:h-screen p-4">
         <div className=" max-w-[1240px] mx-auto flex flex-col justify-center h-full">
             <p className="text-xl tracking-widest uppercase text-[#d4af37]">Skills</p>
             <h2 className="py-4"> These are my skills</h2>

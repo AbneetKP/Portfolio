@@ -22,12 +22,12 @@ function Main() {
                             <FaGithub size={20}/>
                             </div>
                         </a>
+                        <a href="mailto:Abneet.P@gmail.com">
                             <div className=" rounded-full shadow-xl shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <AiOutlineMail size={20}/>
                             </div>
-                            <div className=" rounded-full shadow-xl shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <BsFillPersonLinesFill size={20}/>
-                            </div>
+                        </a>
+                           
          </div>
         </div>
         </div>
