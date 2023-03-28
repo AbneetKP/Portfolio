@@ -43,7 +43,7 @@ function NavBar() {
                 <Link href="/#contact">
                 <li className=" ml-10 text-sm uppercase hover:border-b">Contact</li>
                 </Link>
-                <a href='https://drive.google.com/file/d/1s4yPdaT2zK266bC1TR_tyb94qmHN-AvB/view?usp=share_link'
+                <a href='https://drive.google.com/file/d/1s4yPdaT2zK266bC1TR_tyb94qmHN-AvB/view?usp=sharing'
                         alt="Resume"
                         target="_blank"
                         rel="norel noreferrer">
