@@ -10,11 +10,11 @@ function About() {
                 <p className="py-2"> As I am sure you know by now my name is Abneet, Abneet Pabyal</p>
                 <p className="py-2"> 
                 I am first generation Canadian, born in Surrey British Columbia and moved to
-                <span className="text-[#d4af37]">Calgary</span> in 2012. I have background in Marketing, and recently
+                <span className="text-[#d4af37]"> Calgary</span> in 2012. I have background in Marketing, and recently
                 completed a <span className="text-[#d4af37]"> fullstack developer program </span>. I am adept
                 <span className="text-[#d4af37]"> JavaScript, HTML, CSS </span> and steadily learning more surronding the
                 industry and abundance of open resources. I enjoy
-                <span className="text-[#d4af37]"> digital marketing </span> and <span className="text-[#d4af37]">web developement </span>as these are
+                <span className="text-[#d4af37]"> digital marketing </span> and <span className="text-[#d4af37]">web development </span>as these are
                 my core passions, and the concept of always being introduced new methods,
                 frameworks, and efficencies of the industries really drew me in.
                 </p>
