@@ -13,11 +13,10 @@ function About() {
                 <span className="text-[#d4af37]"> Calgary</span> in 2012. I have background in Marketing, and recently
                 completed a <span className="text-[#d4af37]"> fullstack developer program </span>. I am adept in
                 <span className="text-[#d4af37]"> JavaScript, HTML, CSS </span>  steadily learning more about the industry and the abundance of open resources. 
-                I enjoy <span className="text-[#d4af37]"> digital marketing </span> and <span className="text-[#d4af37]">web development </span>as these are
-                my core passionsthese are my core passions, and the concept of always being introduced to new methods, frameworks, and efficiencies in the industries really drew me in.
+                I enjoy <span className="text-[#d4af37]"> digital marketing </span>, <span className="text-[#d4af37]">web development </span>, and recently got into <span className="text-[#d4af37]"> real estate market</span>. 
                 </p>
                 <p className='py-2'>  
-                In August 2022, I had no prior knowledge of anything related to web or software development. I was enticed by the industry after visiting San Francisco; it had piqued my interest, and I took a deep dive soon after into another field after completing my first degree. I believe my desire for Front-End development is nicely complemented by my marketing knowledge.
+                I am employed at Pabyal Construction, where I am responsible for managing all permit, legal, and financial files for the company. Additionally, I play a key role in coordinating contractors and acquiring the necessary resources for our projects in a timely fashion. While I have thoroughly enjoyed my experience in the construction industry, I am eager to enhance my knowledge and skills to further advance in my career. I am committed to continuous learning and personal growth, as I believe it is essential to avoid stagnation in a dynamic field like construction.
                 </p>
                
             </div>
