@@ -43,11 +43,11 @@ function NavBar() {
                 <Link href="/#contact">
                 <li className=" ml-10 text-sm uppercase hover:border-b">Contact</li>
                 </Link>
-                <a href='https://drive.google.com/file/d/1s4yPdaT2zK266bC1TR_tyb94qmHN-AvB/view?usp=sharing'
-                        alt="Resume"
+                <a href='https://drive.google.com/file/d/1233tCMdC-Y-cHaqibChW1WzQmAp7r5SP/view?usp=sharing'
+                        alt="CV"
                         target="_blank"
                         rel="norel noreferrer">
-                    <li className="ml-10 text-sm uppercase hover:border-b">Resume</li>
+                    <li className="ml-10 text-sm uppercase hover:border-b">CV</li>
                 </a>
               
             </ul>
