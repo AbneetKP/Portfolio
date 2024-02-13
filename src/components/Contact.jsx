@@ -20,7 +20,7 @@ function Contact() {
                         <div>
                             <h2 className="py-2">Abneet Pabyal</h2>
                             <p>Front-End Developer</p>
-                            <p className="py-4">I am a recent graduate with a plethora of skills looking for full-time positions</p>
+                            <p className="py-4">I am looking for full-time positions to further advance my career.</p>
                         </div>
                         <div>
                     <p className=" uppercase pt-8">  Connect With Me</p>

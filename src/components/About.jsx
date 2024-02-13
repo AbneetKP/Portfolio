@@ -13,10 +13,10 @@ function About() {
                 <span className="text-[#d4af37]"> Calgary</span> in 2012. I have background in Marketing, and recently
                 completed a <span className="text-[#d4af37]"> fullstack developer program </span>. I am adept in
                 <span className="text-[#d4af37]"> JavaScript, HTML, CSS </span>  steadily learning more about the industry and the abundance of open resources. 
-                I enjoy <span className="text-[#d4af37]"> digital marketing </span>, <span className="text-[#d4af37]">web development </span>, and recently got into <span className="text-[#d4af37]"> real estate market</span>. 
+                I enjoy <span className="text-[#d4af37]"> digital marketing</span>,<span className="text-[#d4af37]">web development, </span>and recently got into <span className="text-[#d4af37]">home development</span>. 
                 </p>
                 <p className='py-2'>  
-                I am employed at Pabyal Construction, where I am responsible for managing all permit, legal, and financial files for the company. Additionally, I play a key role in coordinating contractors and acquiring the necessary resources for our projects in a timely fashion. While I have thoroughly enjoyed my experience in the construction industry, I am eager to enhance my knowledge and skills to further advance in my career. I am committed to continuous learning and personal growth, as I believe it is essential to avoid stagnation in a dynamic field like construction.
+                I am employed at Pabyal Construction, where I am responsible for managing all permit, legal, and financial files for the company. Additionally, I play a key role in coordinating contractors, site safety and acquiring the necessary resources for our projects in a timely fashion. While I thoroughly enjoyed my experience in the construction industry, I am eager to enhance my knowledge and skills to further advance in my career. I am committed to continuous learning and personal growth, as I believe it is essential to avoid stagnation.
                 </p>
                
             </div>
